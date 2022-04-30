@@ -1,9 +1,9 @@
 #content {
     position: fixed;
     left: 30vw;
-    top: 30vh;
+    top: 70vh;
     width: 40vw;
-    height: 40vh;
+    height: 30vh;
     background-color: black;
     z-index: 2;
     color: lightgreen;
@@ -13,8 +13,28 @@
     align-items: center;
 }
 
+button {
+    background-color: black;
+    color: lightgreen;
+    font-size: 2.5vw;
+    border: solid;
+    border-width: 1px;
+    border-color: darkseagreen;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2vw;
+    margin: 0px;
+}
+
+.title {
+    font-size: 4vw;
+}
+
 .background {
     width: 100vw;
     height: 100vh;
+    opacity: 0%;
     z-index: 1;
 }

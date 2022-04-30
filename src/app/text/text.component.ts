@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./text.component.css']
 })
 export class TextComponent{
-  @Input('password') password: string = 'password';
   @Input('letters') letters: string[] = [];
   @Input('passwordArray') passwordArray: string[] = [];
   foundLetter = false;

@@ -12,6 +12,7 @@ export class AppComponent {
   letters: string[] = [];
   deflautLives = 6;
   lives = this.deflautLives;
+  streak = 0;
   end: boolean = false;
   won: boolean = false;
   constructor() {
@@ -70,6 +71,7 @@ export class AppComponent {
   ResetCheck(): boolean{
     let foundEveryLetter = true;
     if(this.lives <= 0){
+      this.streak = 0;
       this.end = true;
       this.won = false;
       return true;
@@ -88,6 +90,7 @@ export class AppComponent {
       }
     }
     if(foundEveryLetter){
+      this.streak++;
       this.end = true;
       this.won = true;
       return true;

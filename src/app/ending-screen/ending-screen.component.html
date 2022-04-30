@@ -1,8 +1,8 @@
-<!-- <div class="background"></div> -->
+<div class="background"></div>
 <div id="content">
-    <h1 *ngIf="won">Wygrałeś</h1>
-    <h1 *ngIf="!won">Przegrałeś</h1>
-    <h1>Hasło to
+    <h1 *ngIf="won" class="title">Wygrałeś</h1>
+    <h1 *ngIf="!won" class="title">Przegrałeś</h1>
+    <h1>Twój streak to
         <ng-content></ng-content>
     </h1>
     <div class="buttons">

@@ -1,6 +1,6 @@
 <div class="board">
-    <app-ending-screen [won]="won" (reset)="Reset()" *ngIf="end">{{ password }}</app-ending-screen>
     <app-dummy [lives]="lives"></app-dummy>
-    <app-text [password]=password [letters]="letters" [passwordArray]="passwordArray"></app-text>
-    <app-keyboard (press)="InputValue($event.content)"></app-keyboard>
+    <app-text [letters]="letters" [passwordArray]="passwordArray"></app-text>
+    <app-keyboard (press)="InputValue($event.content)" *ngIf="!end"></app-keyboard>
+    <app-ending-screen [won]="won" (reset)="Reset()" *ngIf="end"> {{ streak }}</app-ending-screen>
 </div>
