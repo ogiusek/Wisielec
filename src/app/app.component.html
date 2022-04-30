@@ -1,0 +1,6 @@
+<div class="board">
+    <app-ending-screen [won]="won" (reset)="Reset()" *ngIf="end">{{ password }}</app-ending-screen>
+    <app-dummy [lives]="lives"></app-dummy>
+    <app-text [password]=password [letters]="letters" [passwordArray]="passwordArray"></app-text>
+    <app-keyboard (press)="InputValue($event.content)"></app-keyboard>
+</div>

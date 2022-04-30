@@ -1,0 +1,5 @@
+<div class="main">
+    <h1 *ngFor="let letter of passwordArray" [ngClass]="{found: GetLetter(letter)}" [ngStyle]="{transition: foundLetter ? '1s':'0s'}">{{ letter }}
+        <hr>
+    </h1>
+</div>

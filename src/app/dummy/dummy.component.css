@@ -1,0 +1,78 @@
+.main {
+    height: 60vh;
+    width: 100vw;
+}
+
+.dummy {
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dummy div {
+    transition: 1s;
+}
+
+.head {
+    border-radius: 100%;
+    width: 5vw;
+    height: 5vw;
+    border: solid;
+    border-width: 1px;
+    margin: 0px;
+}
+
+.lArm {
+    height: 15vh;
+    width: 1px;
+    background-color: black;
+    transform: rotate(15deg);
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.belly {
+    width: 1px;
+    height: 15vh;
+    background-color: black;
+}
+
+.rArm {
+    width: 1px;
+    height: 15vh;
+    background-color: black;
+    transform: rotate(345deg);
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.lLeg {
+    width: 1px;
+    height: 15vh;
+    background-color: black;
+    transform: rotate(15deg);
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.rLeg {
+    width: 1px;
+    height: 15vh;
+    background-color: black;
+    transform: rotate(345deg);
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.space {
+    height: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0%;
+}

@@ -1,0 +1,11 @@
+.app {
+    width: 100vw!important;
+    height: 100vh!important;
+}
+
+.board {
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden!important;
+    background-color: greenyellow;
+}

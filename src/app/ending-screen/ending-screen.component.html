@@ -1,0 +1,11 @@
+<!-- <div class="background"></div> -->
+<div id="content">
+    <h1 *ngIf="won">Wygrałeś</h1>
+    <h1 *ngIf="!won">Przegrałeś</h1>
+    <h1>Hasło to
+        <ng-content></ng-content>
+    </h1>
+    <div class="buttons">
+        <button (click)="Reset()">Reset</button>
+    </div>
+</div>

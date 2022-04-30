@@ -1,0 +1,13 @@
+<!-- <div class="main">
+    {{ lives }}
+</div> -->
+<div class="dummy">
+    <div class="head" [ngStyle]="{opacity: lives < 6 ? '100%' : '0%'}"></div>
+    <hr class="space">
+    <div class="lArm" [ngStyle]="{opacity: lives < 4 ? '100%' : '0%'}"></div>
+    <div class="belly" [ngStyle]="{opacity: lives < 5 ? '100%' : '0%'}"></div>
+    <div class="rArm" [ngStyle]="{opacity: lives < 3 ? '100%' : '0%'}"></div>
+    <hr class="space">
+    <div class="lLeg" [ngStyle]="{opacity: lives < 2 ? '100%' : '0%'}"></div>
+    <div class="rLeg" [ngStyle]="{opacity: lives < 1 ? '100%' : '0%'}"></div>
+</div>

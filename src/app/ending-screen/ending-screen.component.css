@@ -1,0 +1,20 @@
+#content {
+    position: fixed;
+    left: 30vw;
+    top: 30vh;
+    width: 40vw;
+    height: 40vh;
+    background-color: black;
+    z-index: 2;
+    color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}

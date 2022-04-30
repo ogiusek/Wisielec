@@ -1,0 +1,28 @@
+.keyboard {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.keyboard hr {
+    opacity: 0%;
+    width: 100vw;
+    height: 0px;
+    margin: 0px;
+}
+
+.keyboard button {
+    font-size: 2vw;
+    border: none;
+    height: 9vh;
+    width: 9vw;
+    transition: 1s;
+    background-color: rgb(150, 250, 150);
+}
+
+.keyboard button:hover {
+    background-color: rgb(50, 250, 50);
+}
